@@ -1,0 +1,43 @@
+body {
+	height: 100%;
+}
+.game {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#demo1 {
+	background-color: grey;
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	border: 10px solid;
+	border-radius: 20px;
+	box-shadow: 0px 0px 32px 0px #000000;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+#demo2 {
+	background-color: rgb(34, 34, 95);
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	border: 10px solid;
+	border-radius: 20px;
+	box-shadow: 0px 0px 32px 0px #13033d;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+#player1 {
+	border-style: none;
+	box-shadow: 0px 0px 32px -5px #000000 inset;
+	height: 20px;
+}
+#player2 {
+	border-style: none;
+	box-shadow: 0px 0px 32px -2px #0000a0 inset;
+	height: 20px;
+}
